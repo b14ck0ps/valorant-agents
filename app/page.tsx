@@ -1,7 +1,10 @@
 import React from "react";
+import Agents from "./Agents";
 
 export default function Index() {
   return (
-    <div className="text-3xl text-center p-5">Valorant Agents With Api</div>
+    <>
+      <Agents />
+    </>
   );
 }
